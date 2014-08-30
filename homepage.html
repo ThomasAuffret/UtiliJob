@@ -1,0 +1,428 @@
+<!Doctype html>
+<html lang="fr">
+
+	<head>
+		
+		<meta charset="utf-8" />
+		<title>UtiliJob - Accueil</title>
+		<meta name="description" content="UtiliJob est un nouveau service mettant en relation les étudiants et les entreprises. Une entreprise ayant un besoin ponctuel sur un projet ou besoin de conseil peut faire appel à des étudiants pour l'aider dans sa démarche, leur permettant ainsi de générer un revenu tout en enrichissant leur CV ">		
+		<meta name="author" content="Thomas Auffret">
+
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap files -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	</head>
+
+	<body data-spy="scroll" data-target="#main-navbar">
+	<div class="container-full">
+
+		<!-- NAVBAR 
+		====================================================================== -->
+		<nav class="navbar navbar-default" id="main-navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a href="homepage.html" class="navbar-brand">LOGO</a>
+				</div> <!-- /end .navbar-header -->
+
+				<div class="navbar-collapse collapse" id="navbar-collapse">					
+					<ul class="nav navbar-nav">						
+						<li><a href="#section-service">Services</a></li>
+						<li><a href="#section-firm">Entreprises</a></li>
+						<li><a href="#section-student">Etudiants</a></li>
+						<li><a href="#section-project">Projets</a></li>
+						<li><a href="#section-blog">Blog</a></li>
+						<li><a href="#section-faq">F.A.Q</a></li>
+						<li><a href="#section-resources">Ressources</a></li>
+						<li><a href="#section-team">L'équipe</a></li>
+						<li><a href="#section-contact">Contact</a></li>		
+					</ul>
+
+					<button type="button" class="btn btn-success navbar-btn navbar-right" data-toggle="modal" data-target="#modal-1">Connexion</button>
+				</div> <!-- /end .navbar-collapse -->
+			</div> <!-- /end .container -->
+		</nav>
+
+		<!-- MODAL WINDOW - CONNEXION -->
+		<div class="modal fade" id="modal-1" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Connectez-vous à votre compte</h4>
+							<small>Vous n'avez pas encore de compte?<br> <a href="#">Créez en un.</a></small>
+					</div> <!-- /end .modal-header -->
+
+					<div class="modal-body">
+						<form action="" role="form">
+							<div class="form-group">
+								<label for="form-elem-1">Pseudonyme ou Adresse email</label>
+								<input type="text" id="form-elem-1" class="form-control" placeholder="nom@exemple.com" required>
+							</div>
+
+							<div class="form-group">
+								<label for="form-elem-2">Mot de passe</label>
+								<input type="password" id="form-elem-2" class="form-control" required>
+							</div>
+
+							<div class="checkbox">
+								<label for=""><input type="checkbox">Se souvenir de moi</label>
+							</div>
+						</form>	
+					</div> <!-- /end .modal-body -->
+
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-success">Connexion <span class="glyphicon glyphicon-arrow-right"></span></button>
+									
+						<div class="text-center">
+							<a href="#">Oubliez votre mot de passe?</a><br>
+							<a href="#">Oubliez votre pseudonyme?</a>
+						</div>									
+					</div> <!-- /end .modal-footer -->
+	
+				</div> <!-- /end .modal-content-->
+			</div> <!-- /end .modal-dialog -->
+		</div> <!-- /end .modal -->
+
+		<!-- BANNER -->
+		<!-- 
+		<div class="jumbotron">
+			<div class="container text-center">
+				<h1>Entreprises, Étudiants, un projet.</h1>
+				<p>UtiliJob, nouveau service d'emplois destiné aux entreprises et aux étudiants</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sapiente corrupti unde necessitatibus facere? Voluptatem animi vero a officia harum! Sint dolorum perspiciatis aliquam, consectetur sunt tempore sequi asperiores mollitia!</p>
+			</div> <!-- /end container -->
+		<!-- </div> <!-- /end jumbotron -->
+
+		<!-- LANDING
+		====================================================================== -->
+		<div class="container text-center col-lg-10 col-lg-offset-1">
+			<h1>Entreprises, Étudiants, un projet.</h1>
+			<p>Découvrez une nouvelle façon de travailler</p>
+			<p>UtiliJob est un nouveau service mettant en relation les entreprises et les étudiants autour de projets.</p>
+		</div> <!-- end .container -->
+
+		 
+
+		<!-- SERVICE 
+		====================================================================== -->
+		<div id="service">
+			<div class="container">
+				<header>
+					<h1>UtiliJob</h1>
+					<p>Découvrez une nouvelle façon de travailler</p>
+				</header>
+				<div id="product-decription">
+					<p>Vous êtes une entreprise et vous avez des besoins ponctuels pour certains projets? Vous ne disposez pas toujours du personnel ou des compétences nécessaires en interne et vous disposez d'un budget limité?
+					UtiliJob vous aide à trouver le candidat idéal parmi large panel de compétences, pour réaliser vos projets.</p>
+
+					<p>Vous êtes étudiant et souhaitez mettre en pratique ce que vous avez appris tout en gagnant de l'argent? Vous avez besoin d'enrichir votre CV?
+					UtiliJob vous mets en relation avec les entreprises afin que vous puissiez travailler sur de véritables projets.</p>
+					<ul>
+						<li>Enrichissez vos CVs</li>
+						<li>Gagnez de l'argent</li>
+						<li>Disposez de ressources pour tous vos projets</li>
+					</ul>
+				</div>
+
+				<!-- CAROUSEL -->
+				<div class="carousel slide" data-ride="carousel" id="carousel-example">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example" data-slide-to="1"></sli>
+						<li data-target="#carousel-example" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/slider-1.jpg" alt="Slide">
+
+							<div class="carousel-caption">
+								<h3>Titre du slide</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/slider-2.jpg" alt="Slide">
+
+							<div class="carousel-caption">
+								<h3>Titre du slide</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/slider-3.jpg" alt="Slide">
+
+							<div class="carousel-caption">
+								<h3>Titre du slide</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+
+					<a href="#carousel-example" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#carousel-example" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+
+				</div>
+			</div> <!--end .container -->
+		</div> <!-- end #service -->
+
+
+		<!-- TODO 
+		modifier les sections FIRM et Student pour n'avoir 
+		qu'un id section-*
+		-->
+		<!-- FIRM -->
+		<section>
+			<div class="container text-center" id="section-firm">
+				<h1>Mener à bien tous vos projets</h1>
+
+					<p>UtiliJob mets à votre disposition une base d'étudiants disposant de compétences variées.
+					Plus de problème de budget, de ressources internes ou de compétences insuffisantes,vous pouvez dorénavant vous consacrer entièrement à votre coeur de métier et laisser un étudiant se charger de vos projets ponctuels.</p>
+			
+
+				<h3>Inscrivez-vous afin de proposer votre projet et trouver la personne idéale pour le réaliser!</h3>
+				<button type="submit" class="btn btn-success">Inscription</button>
+			</div>
+
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div id="section2-firm">
+				<h2>Inscription</h2>
+				<form method="post" id="register">
+	          	</form>
+			</div>
+			<div id="section3-firm">
+				<h2>Trouver un candidat</h2>
+				<form method="post" id="firm-filter">
+	          	</form>
+			</div> 
+		</section> <!-- /end FIRM -->
+
+		<!-- STUDENT -->
+		<div id="section1-student">
+			<h2>Avantages</h2>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div id="section2-student">
+			<h2>Inscription</h2>
+			<form method="post" id="register">
+          	</form>
+		</div>
+		<div id="section3-student">
+			<h2>Trouver un projet</h2>
+			<form method="post" id="student-filter">
+          	</form>
+		</div> <!-- /end STUDENTS -->
+
+		<!-- PROJECT -->
+		<div id="section-project">
+			
+		</div> <!-- /end PROJECT -->
+
+		<!-- BLOG -->
+		<div id="section-blog">
+			
+		</div> <!-- /end BLOG -->
+
+		<!-- F.A.Q. -->
+		<section>
+			<div class="page-header text-center" id="section-faq">
+				<h2>Vous avez des questions? Nous avons les réponses.</h2>
+			</div>
+			<div class="row">
+				<div class="panel-group col-lg-8 col-lg-offset-2" id="accordion-qa">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-1" data-toggle="collapse" data-parent="#accordion-qa">Question 1</a></h4>
+						</div>
+						<div class="panel-collapse collapse in" id="qa-1">
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam, nemo sunt. Eligendi fugit beatae fuga. Qui quasi quibusdam porro illum, ducimus necessitatibus excepturi voluptate ullam repellat facilis, consequatur labore?
+							</div> <!-- end panel-body -->
+						</div> <!-- end collapse -->
+					</div> <!-- end panel -->
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Question 3</a></h4>
+						</div>
+						<div class="panel-collapse collapse" id="qa-2">
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam, nemo sunt. Eligendi fugit beatae fuga. Qui quasi quibusdam porro illum, ducimus necessitatibus excepturi voluptate ullam repellat facilis, consequatur labore?
+							</div> <!-- end panel-body -->
+						</div> <!-- end collapse -->
+					</div> <!-- end panel -->
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#qa-3" data-toggle="collapse" data-parent="#accordion-qa">Question 3</a></h4>
+						</div>
+						<div class="panel-collapse collapse" id="qa-3">
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam, nemo sunt. Eligendi fugit beatae fuga. Qui quasi quibusdam porro illum, ducimus necessitatibus excepturi voluptate ullam repellat facilis, consequatur labore?
+							</div> <!-- end panel-body -->
+						</div> <!-- end collapse -->
+					</div> <!-- end panel -->
+				</div> <!-- end panel-group -->
+			</div>
+		</section> <!-- /end F.A.Q. -->
+			
+		<!-- RESOURCES -->
+		<div id="section-resources">
+			
+		</div> <!-- /end RESOURCES -->
+
+		<!-- TEAM -->
+		<section>
+			<div class="container text-center" id="section-team">
+				<h2>UtiliJob, une autre façon de voir le monde du travail</h2>
+				<p>UtiliJob est née d'un constat simple, l'inadéquation entre le monde de l'entreprise et celui des étudiants.
+				C'est pour cela qu'UtiliJob a été fondée afin d'offrir la possibilité aux étudiants de toute part de pouvoir mettre à profit
+				leurs connaissances tout en permettant aux entreprises de bénéficier d'un vivier de compétences utiles à leur développement.
+				UtiliJob n'a pas seulement pour vision de mettre en relation les étudiants et les entreprises mais également de modifier durablement 
+				le marché du travail.</p>
+				<div id="images">
+					<img src="img/team_TA.jpg" alt="Thomas Auffret: Directeur UtiliJob">
+					<figcaption><small>Thomas Auffret : Directeur UtiliJob</small></figcaption>
+				</div>	
+
+				<br>
+			</div> 	
+		</section>
+
+		<!-- CONTACT -->
+		<section>
+			<div class="container text-center" id="section-contact">
+				<h2>Nous serons ravi de répondre à toutes vos questions et demandes d'informations</h2>
+				<p>Laissez nous un message ou contactez nous via les coordnnées ci-dessous et nous vous répondrons dans les plus brefs délais</p>
+			</div> 
+
+			<div class="container">						
+				<div class="col-lg-8 col-lg-offset-2">
+					<form method="post" action="#" class="form-horizontal" role="form" id="contact-form">
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2 control-label">Nom
+							</label>
+
+							<div class="col-lg-10">
+								<input type="text" name="name" id="name" class="form-control" id="contact-name" placeholder="Entrez votre nom" required>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-email" class="col-lg-2 control-label">Adresse email
+							</label>
+
+							<div class="col-lg-10">
+								<input type="email" name="email" id="email" class="form-control" id="contact-email" placeholder="nom@exemple.com" required>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="contact-office" class="col-lg-2 control-label">Services à contacter
+							</label>
+
+							<div class="col-lg-10">
+								<input type="text" name="office" id="office"class="form-control" list="officeType">
+								<datalist id="officeType">
+					    			<option value="Commercial">
+					    			<option value="Marketing">
+					    			<option value="Administrateur du site">
+					    			<option value="Autre">
+								</datalist>
+								<p class="help-block">Veuillez saisir ou sélectionner dans la liste suivante le service à contacter</p>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-subject" class="col-lg-2 control-label">Objet du message
+							</label>
+
+							<div class="col-lg-10">
+								<input type="text" name="subject" id="subject" class="form-control" placeholder="Objet">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-message" class="col-lg-2 control-label">Votre message</label>
+
+							<div class="col-lg-10">
+								<textarea name="message" id="message" class="form-control" placeholder="Tapez votre message ici" rows="10" required></textarea>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-lg-offset-10 col-lg-10">
+								<button type="submit" class="btn btn-primary">Envoyer</button>
+							</div>
+						</div>
+					</form> <!-- end form -->
+				</div> <!-- end col-lg-8 -->
+			</div> <!-- end container -->
+
+			<ul class="list-inline text-center">
+				<li class="twitter"><a href="#">Twitter</a></li>
+				<li class="facebook"><a href="#">Facebook</a></li>
+				<li class="linkedin"><a href="#">Linkedin</a></li>
+				<li class="gplus"><a href="#">Google+</a></li>
+				<li class="skype"><a href="#">Skype</a></li>
+			</ul>
+
+			<div class="row text-center">
+				<div class="col-lg-8 col-lg-offset-2">
+					<hr>
+					<address>
+						<strong>UtiliJob</strong><br>
+						1 rue Placenn Ar Guer<br>
+						22300 Lannion FRANCE<br>
+						<abbr title="Téléphone">Tél: </abbr>+33 06-85-44-13-34
+					</address>
+				</div>
+			</div>
+		</section>	
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="row">
+				<hr class="col-lg-8 col-lg-offset-2">
+			</div>
+			
+			<p class="text-center">&copy; Copyright UtiliJob 2014 - Tous droits réservés</p>	       	
+        </footer><!-- /end FOOTER --> 
+	</div> <!-- end .container-full -->
+		
+        <!-- Latest compiled and minified JavaScript -->
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</body>
+</html>
